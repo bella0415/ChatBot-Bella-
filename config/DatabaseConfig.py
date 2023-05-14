@@ -1,0 +1,10 @@
+# DB 접속 정보
+
+DB_USERNAME = "root"
+DB_PASSWORD = "root123"
+DB_HOST = "52.78.168.253"
+DB_PORT  = 59543
+DB_DATABASE = "MYCOCO"
+
+def DatabaseConfig() :
+    global DB_USERNAME, DB_PASSWORD, DB_HOST, DB_PORT, DB_DATABASE
